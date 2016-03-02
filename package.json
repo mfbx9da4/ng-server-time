@@ -1,0 +1,22 @@
+{
+  "name": "ng-ntp",
+  "version": "1.0.0",
+  "description": "Angular web socket implementation of network time protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Alberto Adler, dalberto.adler@gmail.com, github.com/mfbx9da4",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.5.0",
+    "angular-mocks": "^1.5.0",
+    "gulp-jasmine": "^2.3.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.24",
+    "phantomjs-prebuilt": "^2.1.4"
+  }
+}
