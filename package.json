@@ -2,13 +2,25 @@
   "name": "ng-server-time",
   "version": "1.0.0",
   "description": "Angular web socket implementation of network time protocol",
-  "main": "index.js",
+  "main": "ng-server-time.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "David Alberto Adler, dalberto.adler@gmail.com, github.com/mfbx9da4",
   "license": "MIT",
   "devDependencies": {
     "angular": "^1.5.0"
-  }
+  },
+  "dependencies": {
+    "angular": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfbx9da4/ng-server-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mfbx9da4/ng-server-time/issues"
+  },
+  "homepage": "https://github.com/mfbx9da4/ng-server-time#readme"
 }
