@@ -1,5 +1,5 @@
 {
-  "name": "ng-ntp",
+  "name": "ng-server-time",
   "version": "1.0.0",
   "description": "Angular web socket implementation of network time protocol",
   "main": "index.js",
