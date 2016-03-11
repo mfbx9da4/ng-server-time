@@ -1,7 +1,7 @@
 
 module.exports = function(socket){
-    socket.on('date now',function(client_now){
-        socket.emit('date now', {sender_transmission_time: client_now,
+    socket.on('server time',function(client_now){
+        socket.emit('server time', {sender_transmission_time: client_now,
                                  server_transmission_time: Date.now()});
     });
 }
