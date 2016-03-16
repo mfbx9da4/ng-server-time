@@ -1,4 +1,4 @@
-Synchronizes local system time with server time
+Synchronizes local browser time with server time
 using clock synchronization algorithm, similar to
 NTP.
 

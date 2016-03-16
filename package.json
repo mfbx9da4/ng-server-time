@@ -1,6 +1,6 @@
 {
   "name": "ng-server-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular web socket implementation of network time protocol",
   "main": "ng-server-time.js",
   "scripts": {
