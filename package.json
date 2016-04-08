@@ -1,8 +1,8 @@
 {
   "name": "ng-server-time",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Angular web socket implementation of network time protocol",
-  "main": "ng-server-time.js",
+  "main": "server-time-socket.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

@@ -12,7 +12,7 @@ NTP.
     npm install ng-server-time
     ```
 
-2. Ensure you have a socket factory such as this one, it is required by the server time factory:
+2. Ensure you have an angular socket.io factory such as this one, it is required by the server time factory:
 
     ```js
     app.factory('socket', function() {
@@ -43,13 +43,13 @@ NTP.
 ```js
 app.controller('MainController', function($scope, ServerTime){
     // Date.now() on the server
-    $scope.now = now();
+    $scope.now = ServerTime.now();
 
     // new Date() on the server
-    $scope.new = new();
+    $scope.new = ServerTime.new();
 
     // get offset in milliseconds between current browser
     // time and server time
-    $scope.getOffset = getOffset();
+    $scope.getOffset = ServerTime.getOffset();
 });
 ```
