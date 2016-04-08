@@ -1,6 +1,11 @@
+#Ng Server Time
+
 Synchronizes local browser time with server time
 using clock synchronization algorithm, similar to
 NTP.
+
+##[Demo](http://ng-server-time.herokuapp.com/)
+##[Demo code](https://github.com/mfbx9da4/ng-server-time-example)
 
 ##Installation
 
