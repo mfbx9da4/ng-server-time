@@ -6,7 +6,13 @@ NTP.
 
 1. Ensure angular and sockets are installed correctly
 2. Ensure you have a socket factory such as this one:
-    *  `app.factory('socket', function($rootScope) {var socket = io.connect();return socket;});` 
+
+      ```js
+      app.factory('socket', function($rootScope) {
+         var socket = io.connect();
+         return socket;
+      });
+      ```
 3. Include `ng-server-time-factory.js`.
 4. Import `server-time-socket.js` on the server
 
